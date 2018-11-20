@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetServer", "NugetServer\NugetServer.csproj", "{CBE50842-6F2B-48E8-B54F-A3987608DA0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBE50842-6F2B-48E8-B54F-A3987608DA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE50842-6F2B-48E8-B54F-A3987608DA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE50842-6F2B-48E8-B54F-A3987608DA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE50842-6F2B-48E8-B54F-A3987608DA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDD1F7F1-086D-48C6-B990-60D89DFAD508}
+	EndGlobalSection
+EndGlobal
