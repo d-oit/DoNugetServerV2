@@ -1,4 +1,6 @@
+using System.Diagnostics;
 using System.Net.Http;
+using System.Web.Hosting;
 using System.Web.Http;
 using System.Web.Http.ExceptionHandling;
 using System.Web.Http.Routing;
@@ -22,8 +24,8 @@ namespace NugetServer.App_Start
 
             config.Services.Replace(typeof(IExceptionLogger), new TraceExceptionLogger());
 
-            // Trace.Listeners.Add(new TextWriterTraceListener(HostingEnvironment.MapPath("~/NuGet.Server.log")));
-            // Trace.AutoFlush = true;
+            Trace.Listeners.Add(new TextWriterTraceListener(HostingEnvironment.MapPath("~/NuGet.Server.log")));
+            Trace.AutoFlush = true;
 
             config.Routes.MapHttpRoute(
                 name: "NuGetDefault_ClearCache",
